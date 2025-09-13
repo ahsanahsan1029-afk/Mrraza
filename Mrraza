@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta ="UTF-8">
+  <meta name="viewport" content="width=:-width, initial-scale=1">
+  <style>
+    body {
+ background-color: lightslategray;
+ margin-left: 25px;
+ margin-right: 25px;
+    }
+    div {
+      background-color: slategray;
+      border-radius: 15px;
+    }
+    h1 {
+      margin:2px;
+      
+    }
+    #first {
+      margin:20px;
+    }
+    .fi {
+      color:white;
+      background: linear-gradient(to right, lightblue, slategray, purple);
+      font-size: 20px;
+      border-radius: 8px;
+      border:none;
+    }
+    #second {
+      font-size: 10px;
+    }
+    .d {
+      background-color: lightslategray;
+      margin-right: 15px;
+      margin-left: 15px;
+    }
+    .i {
+      background-color: lightslategray;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+    .v {
+      background-color: lightslategray;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+    .t {
+      background: linear-gradient(to right, lightblue, skyblue, gray);
+    font-size: 80px;
+     margin-left: 20px;
+     margin-right: 20px;
+     padding-right: 10px;
+     border: none;
+     border-radius: 10px;
+     color: white;
+      
+    }
+    .c {
+      background-color: lightslategrey;
+      margin-left: 20px;
+      margin-right: 20px;
+    
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 150px;
+      background-color: lightslategray;
+    }
+    .contact-form {
+      width: 300px;
+      margin: 50px auto;
+      padding: 20px;
+      background: slategray;
+      border-radius: 10px;
+    }
+    .contact-form .io {
+      text-align: center;
+    }
+    .contact-form input, 
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .contact-form button {
+      width: 100%;
+      padding: 10px;
+      background: linear-gradient(to right, blue, skyblue, white);
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .contact-form button:hover {
+      background: darkblue, blue, whitesmoke;
+    }
+    .zain {
+      text-align: left;
+    }
+    .ol {
+      border-radius: 8px;
+      height: 50px;
+      width: 320px;
+      text-align: center;
+    }
+    .op {
+      font-size: 40px;
+      height: 67px;
+      background: linear-gradient(to right, lightblue, white, gray);
+      border-radius: 8px;
+      border: none;
+    }
+  </style>
+  <title>my first website</title>
+</head>
+<body>
+    
+<div class="first">
+  <button class="op">
+    AKZ </button>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h1>Ak modern,
+      responsive website-
+      ready to use</h1>
+      <p class="first">Yeh template aapko shuru karne ke liye chahiye sab kuch deta hai: hero, features, gallery, contact form aur thoda JavaScript functionality.</p>
+  
+      <button class="fi">
+        link </button>
+        <a href="https://youtube.com/@ifggroup786?si=5a81E3OyqfPGmR5H">Yt channel</a>
+        <a href="https://www.instagram.com/iam____zeeshan___000?igsh=YWdsbDgwOHl0Y3pp">InStagram id</a>
+        <br>
+        <div class="d">
+        <h2>Developer</h2>
+        <p class="second">mr Ahsan is developer of this website.</p></div>
+        <br>
+        <div class="i">
+        <h2>Owner</h2>
+                  <p>mr Zeeshan is owner of this website.</p></div>
+        <br>
+        <div class="v">
+        <h2>Manager</h2>
+          <p>mr Ahmad and mr Kaif are manager of this website and they are handling it.</p>
+          </div>
+          <br>
+          <br>
+       <div class="c">
+         <button class="t">
+           your image</button>
+     <div class="container">
+       <div class="box"><h2>Ahsan</h2><p> website developer</p></div>
+       <div class="box">portfolio</div>
+           </div>
+         
+       </div>
+       
+       <br>
+       <br>
+       <br>
+       <br>
+       
+</div>
+<div class="contact-form">
+  <h2 class="io">Contact Us</h2>
+  <form>
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+  <br>
+<br>
+<br>
+<h2 class="zain">about</h2>
+<p>ye meri pahli website hai batao kaisa hai</p>
+<br>
+<br>
+<li>HTML/JAVA/CSS single file
+<li>Responsive grid layout
+<li>Simple form velidation
+
+</div>
+<div class="ol"> <h3>© 2025 website made with mr raza ❤️ </h3></div>
+</body>
+</html>
